@@ -1,7 +1,7 @@
 # SqlBuilderJavaScript
 Simple SqlBuilder written in JavaScript to practice JOINS 
 
-Supports INNER JOIN, LEFT JOIN, RIGHT JOIN and FULL OUTER JOIN
+Supports `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN` and `FULL OUTER JOIN`
 
 ## Example
 
