@@ -7,5 +7,10 @@ Supports INNER JOIN, LEFT JOIN, RIGHT JOIN and FULL OUTER JOIN
 
 ```js
  const sqlBuilder = new SqlBuilder();
- const recordsReturned = sqlBuilder.innerJoin(table1: [], table2: [], keyToJoinOn, options = { type: 'inner' })
+ const recordsReturned = sqlBuilder.innerJoin(
+  table1: [], 
+  table2: [], 
+  keyToJoinOn, 
+  options = { type: 'inner' }
+ )
 ```
