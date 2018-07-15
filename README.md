@@ -11,6 +11,5 @@ Supports INNER JOIN, LEFT JOIN, RIGHT JOIN and FULL OUTER JOIN
   table1: [], 
   table2: [], 
   keyToJoinOn, 
-  options = { type: 'inner' }
  )
 ```
