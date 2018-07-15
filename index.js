@@ -41,33 +41,3 @@ class SqlBuilder {
     return this.join(table2, table1, key, { type: "right" });
   }
 }
-
-const orders = [
-  {
-    order_id: 50,
-    customer_id: 99,
-    price: 40,
-    created_at: Date.now()
-  },
-  {
-    customer_id: 50,
-    price: 60,
-    created_at: null
-  }
-];
-
-const customers = [
-  {
-    customer_id: 99,
-    name: "First customer"
-  },
-  {
-    customer_id: 102,
-    name: "Third customer",
-    order_id: 50
-  }
-];
-
-const sqlBuilder = new SqlBuilder();
-const records = sqlBuilder.leftJoin(orders, customers, "customer_id");
-console.log(records);
